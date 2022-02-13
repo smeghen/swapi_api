@@ -25,8 +25,13 @@
         <!-- table for showing data -->
         <div class="row" id="table">
             <div class="col-sm-10 offset-sm-1">
+                <div class="col-sm-2 offset-sm-5">
+                    <input type="text" id="myInput" onkeyup="Filter()" placeholder="Search by name.." title="Type in a name">
+                </div>
+                <br>
+                <br>
                 <div class="table-responsive rounded">
-                    <table class="table table-sm table-borderless table-hover table-light table-striped">
+                    <table class="table table-sm table-borderless table-hover table-light table-striped" id="myTable">
                         <thead class="thead-dark">
                             <tr>
                                 <th scope="col">Name</th>
