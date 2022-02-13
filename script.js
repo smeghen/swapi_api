@@ -21,6 +21,7 @@ async function getData() {
                         <td>${people[i].height}</td>
                         <td>${people[i].mass}</td>
                         <td>${people[i].created}</td>
+                        <td>${people[i].edited}</td>
 
             </tr>
             `
